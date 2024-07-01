@@ -4,6 +4,15 @@
   box-sizing: border-box;
   
 }
+
+@font-face {
+  font-family: 'Embed code';
+  src: url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+.radix-themes{
+  --default-font-family:'Embed code';
+}
 button{
   background: none;
 	color: inherit;

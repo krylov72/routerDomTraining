@@ -54,7 +54,7 @@ const classNameA = (isActive:any) => {
                 </s.Nav>
                 <s.Content>
                     <Routes>
-                        <Route path='/' element={<Navigate to={'/page1'} />} />
+                        <Route path='/' element={<Navigate to={PATH.PAGE1} />} />
                         <Route path={PATH.PAGE1} element={<PageOne />} />
                         <Route path={PATH.PAGE2}  element={<PageTwo />} />
                         <Route path={PATH.PAGE3}  element={<PageThree />} />
