@@ -1,28 +1,3 @@
-*,*::after,*::before{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-
-@font-face {
-  font-family: 'Embed code';
-  src: url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-}
-
-.radix-themes{
-  --default-font-family:'Embed code';
-}
-button{
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
